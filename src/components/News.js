@@ -10,8 +10,8 @@ function News() {
       <div className='card-2'>
         <h5>PUBLISH DATE</h5>
         <h5>AUTHOR</h5>
-        <h5>DATE</h5>
         <h5>SOURCE</h5>
+        <h5>TITLE</h5>
         <h5></h5>
       </div>
       {data
