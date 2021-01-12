@@ -1,0 +1,2 @@
+export const SET_NEWS_STATE = 'SET_NEWS_STATE';
+export const SET_QUERY_STATE = 'SET_QUERY_STATE';

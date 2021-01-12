@@ -1,0 +1,87 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: #202438;
+}
+
+/* Utility */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+/* Navigation */
+
+#main-nav {
+  background: #292d47;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .logo {
+  margin-right: 0.5rem;
+}
+
+.Oval {
+  width: 40px;
+  height: 40px;
+  background-color: #009fe3;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.Arrow {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  background: #292d47;
+  grid-gap: 50px;
+  color: #d1d1d1;
+  overflow: hidden;
+  border-bottom: 0.1px solid #d1d1d1;
+  padding: 1rem 0.5rem;
+  align-items: center;
+}
+
+.card-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  background: #292d47;
+  grid-gap: 50px;
+  color: #d1d1d1;
+  overflow: hidden;
+  border-bottom: 0.1px solid #d1d1d1;
+  padding: 1rem 0.5rem;
+}
