@@ -22,7 +22,7 @@ function News() {
 
 
   return (
-    <div style={{marginTop:'5rem'}}>
+    <div style={{marginTop:'5rem', marginBottom:'5rem'}}>
       <div className='card-2'>
         <h5></h5>
         <h5></h5>

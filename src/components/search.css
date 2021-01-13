@@ -1,25 +1,3 @@
-/* .searchContainer {
-  margin: 2rem 0rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-input[type=text] {
-  width: auto;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('./search-solid.svg');
-  background-size: 20px;
-  padding-top: 12px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-
-} */
-
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 .search {
   margin-top: 2rem;
@@ -34,8 +12,10 @@ input[type=text] {
   background: #292d47;
   border: solid 1px rgba(143, 144, 151, 0.4);
   border-radius: 16.5px;
-  
+  color: #fff;
 }
+
+
 
 .search input:focus{
   outline: none;

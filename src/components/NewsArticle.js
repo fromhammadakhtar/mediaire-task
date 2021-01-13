@@ -15,7 +15,7 @@ function NewsArticle({ data }) {
       <h5>{ReactHtmlParser(data.title)}</h5>
       <a class='inner' href={data.url}>
         <div className='Oval'>
-          <img src={path} className='Arrow' />
+          <img src={path} className='Arrow' alt='' />
         </div>
       </a>
     </div>
