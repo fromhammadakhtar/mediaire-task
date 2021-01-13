@@ -10,19 +10,14 @@ function NewsArticle({ data }) {
   return (
     <div onClick={() => passData(data)} className='card'>
       <h5>{data.publishedAt}</h5>
-
       <h5>{ReactHtmlParser(data.author)}</h5>
       <h5>{ReactHtmlParser(data.source.name)}</h5>
-
       <h5>{ReactHtmlParser(data.title)}</h5>
-
-      <div style={{marginLeft:'40px'}}>
-        <a href={data.url}>
-          <div className='Oval'>
-            <img src={path} className='Arrow' />
-          </div>
-        </a>
-      </div>
+      <a class='inner' href={data.url}>
+        <div className='Oval'>
+          <img src={path} className='Arrow' />
+        </div>
+      </a>
     </div>
   );
 }

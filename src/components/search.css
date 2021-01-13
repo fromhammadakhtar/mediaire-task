@@ -1,4 +1,4 @@
-.searchContainer {
+/* .searchContainer {
   margin: 2rem 0rem;
   display: flex;
   align-items: center;
@@ -15,10 +15,40 @@ input[type=text] {
   background-image: url('./search-solid.svg');
   background-size: 20px;
   padding-top: 12px; 
-  background-position: 0.5rem 0.5rem; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
 
+} */
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  font-size: 16px;
 }
+
+.search input {
+  width: 250px;
+  height: 32px;
+  background: #292d47;
+  border: solid 1px rgba(143, 144, 151, 0.4);
+  border-radius: 16.5px;
+  
+}
+
+.search input:focus{
+  outline: none;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  left: 225px;
+  color:  rgba(143, 144, 151, 0.4);
+}
+
 
 

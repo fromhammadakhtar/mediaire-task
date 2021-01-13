@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   background: #202438;
 }
@@ -67,11 +67,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
   background: #292d47;
-  grid-gap: 50px;
+  grid-gap: 5rem;
   color: #d1d1d1;
   overflow: hidden;
   border-bottom: 0.1px solid #d1d1d1;
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
   align-items: center;
 }
 
@@ -79,9 +79,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
   background: #292d47;
-  grid-gap: 50px;
+  grid-gap: 5rem;
   color: #d1d1d1;
   overflow: hidden;
   border-bottom: 0.1px solid #d1d1d1;
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
 }
+
+
+
+.inner {
+  margin-left: 10rem;
+}
+
+
+/* Search Bar */
+
